@@ -1,6 +1,6 @@
-# JABDigital
+# JABService
 
-JABDigital is a simple landing page to introduce the offer of this agency.
+JABService is a simple landing page to introduce the offer of this agency.
 
 ## Acknowledgments
 
