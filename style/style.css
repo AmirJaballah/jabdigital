@@ -48,12 +48,12 @@ main {
     padding-right: 1rem;
     padding-left: 1rem;
     padding-top: 3rem;
+}
 
-    background: url(../img/logo.png); 
-    background-position: top;
-    background-position-y: 0.2rem;
-    background-size: 10rem;
-    background-repeat: no-repeat;
+#landing-text img {
+    width: 40vw;
+    display: inline-block;
+    margin: 1rem;
 }
 
 #landing-text h2 {
@@ -185,7 +185,7 @@ footer h3 {
 }
 
 
-/* Screen Sizes 500px and up */
+/* Screen Sizes 600px and up */
 @media(min-width: 600px) {
     #landing{
         display: flex;
@@ -193,13 +193,20 @@ footer h3 {
     }
 
     #landing-text {
-        height: 100vh;
-        background: url(../img/logo.png); 
-        background-position: top;
-        background-position-y: 12rem;
-        background-size: 12rem;
-        background-repeat: no-repeat;
-        padding-top: 0;
+        display: flex;
+        flex: 0 1 40vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+    
+    #landing-text img {
+        width: 20vw;
+        margin: 2rem;
     }
 
     #landing-image {
@@ -229,4 +236,25 @@ footer h3 {
         padding: 1rem 3rem;
         font-size: 1.2rem;
     }
+        
+    #landing-text img {
+        width: 15vw;
+       /*  margin-bottom: 1rem; */
+    }
+
 }
+
+/* Screen Sizes 300px and up */
+/* @media(max-height: 300px) {
+
+
+    #landing-text {
+      /*   height: 100vh; 
+        background: url(../img/logo.png); 
+        background-position: top;
+        background-position-y: 1rem;
+        background-size: 12rem;
+        background-repeat: no-repeat;
+        padding-top: 0;
+    }
+} */
