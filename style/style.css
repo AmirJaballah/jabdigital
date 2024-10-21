@@ -2,17 +2,16 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    background: #eee;
-    height: auto;
+    margin:   
+ 0;
+    background: #eee; 
 }
 
- h1 {
+h1 {
     font-weight: 400;
     font-size: 2.5rem;
     text-transform: uppercase;
     margin: 0;
-
 }
 
 h2 {
@@ -30,34 +29,34 @@ img {
 main {
     max-width: 900px;
     margin: auto;
-    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
-    -30px 0px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 30px 0   
+ 40px rgba(0, 0, 0, 0.1), -30px 0 40px rgba(0, 0, 0, 0.1);
 }
 
-#landing-text-inner {
+#landing-text-inner   
+ {
     display: flex;
-    flex-direction: column; /* Aligner les éléments verticalement */
-    justify-content: center; /* Centrer verticalement */
-    align-items: center; /* Centrer horizontalement   
-   */
-    text-align: center; /* Centrer le texte */
-    height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
-  }
-
-#landing {
-    background: #fff;
-}
-
-#landing-text {
-    display: flex;
-    flex: 0 1 40vw;
-    height: 50vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 3rem;
+    height: 100%; 
+}
+
+#landing {
+    background: #fff;
+    display: flex; /* Déplacé ici pour éviter la répétition */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; 
+}
+
+#landing-text {
+    flex: 0 1 40vw;
+    height: 50vh;
+    padding: 3rem 1rem; 
 }
 
 #landing-text img {
@@ -71,14 +70,12 @@ main {
 }
 
 #landing-image {
-   background: url(https://source.unsplash.com/qgdJX9mvMJI);
-   /*background: url(https://source.unsplash.com/MgtHZ4zlC1U); */
+   background: url(https://source.unsplash.com/qgdJX9mvMJI); 
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    height: 50vh;
    flex: 0 1 50vw;
-   margin: 0;
 }
 
 .btn {
@@ -89,7 +86,8 @@ main {
     border-radius: 50px;
     text-decoration: none;
     color: #333;
-    transition: background 500ms ease;
+    transition: background 500ms ease;   
+
 }
 
 .btn:hover {
@@ -107,45 +105,34 @@ main {
     border-left: dotted 1px #fff;
     border-right: dotted 1px #fff;
     display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding:   
+ 0 1rem; 
 }
 
 .caption {
-    padding: 0.1rem;
+    padding:   
+ 0.1rem;
     text-align: center;
     font-size: 1rem;
-    margin: 0;
 }
 
 .caption h3 {
     font-weight: 800;
     font-size: 1.7rem;
-    padding-bottom: 0;
-    margin: 0;
-
-    margin-top: 1rem;
+    margin: 1rem 0 0; 
 }
 
 .service-type {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-
+    background-size: contain; 
     height: 33vh;
     flex: 0 1 60vw;
-    margin: 0;
-
     color: #fff; 
-
     text-transform: uppercase;
     font-weight: 800;
     font-size: 2.5rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,38 +140,24 @@ main {
 }
 
 #banner {
-    background:     linear-gradient(
-        rgba(37, 78, 182, 0.5),
-        rgba(204, 12, 204, 0.5)
-      ), url(https://source.unsplash.com/1600x900/?architect) center; 
+    background: linear-gradient(rgba(37, 78, 182, 0.5), rgba(204, 12, 204, 0.5)), url(https://source.unsplash.com/1600x900/?architect) center; 
 }
 
 #webmaster {
-    background:     linear-gradient(
-        rgba(37, 78, 182, 0.5),
-        rgba(204, 12, 204, 0.5)
-      ), url(https://source.unsplash.com/1600x900/?database) center; 
+    background: linear-gradient(rgba(37, 78, 182, 0.5), rgba(204, 12, 204, 0.5)), url(https://source.unsplash.com/1600x900/?database) center; 
 }
 
 #depannage {
-    background:     linear-gradient(
-        rgba(37, 78, 182, 0.5),
-        rgba(204, 12, 204, 0.5)
-      ), url(https://source.unsplash.com/1600x900/?engine) center; 
+    background: linear-gradient(rgba(37, 78, 182, 0.5), rgba(204, 12, 204, 0.5)), url(https://source.unsplash.com/1600x900/?engine) center; 
 }
 
 #emailing {
-    background:     linear-gradient(
-        rgba(37, 78, 182, 0.5),
-        rgba(204, 12, 204, 0.5)
-      ), url(https://source.unsplash.com/1600x900/?iphone) center ; 
+    background: linear-gradient(rgba(37, 78, 182, 0.5), rgba(204, 12, 204, 0.5)), url(https://source.unsplash.com/1600x900/?iphone) center ; 
 }
 
-
 footer {
-    text-align:  center;
+    text-align: center;
     padding: 2rem 1rem;
-    margin: auto;
     color: #333;
     margin-bottom: 4rem;
 }
@@ -194,36 +167,8 @@ footer h3 {
     margin-bottom: 0;
 }
 
-
 /* Screen Sizes 600px and up */
 @media(min-width: 600px) {
-    #landing{
-        display: flex;
-        height: 100%;
-    }
-
-    #landing {
-        display: flex;
-        flex-direction: column; /* Aligner les éléments verticalement */
-        justify-content: center; /* Centrer verticalement */
-        align-items: center; /* Centrer horizontalement   
-       */
-        text-align: center; /* Centrer le texte */
-        height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
-      }
-
-    #landing-text {
-        display: flex;
-        flex: 0 1 40vw;
-        height: 50vh;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        padding-top: 3rem;
-    }
-    
     #landing-text img {
         width: 20vw;
         margin: 2rem;
@@ -234,7 +179,6 @@ footer h3 {
     }
 
     .service-type { 
-        font-weight: 700;
         font-size: 3.5rem;
     }
 
@@ -243,12 +187,9 @@ footer h3 {
     }
 
     .caption h3 {
-        font-weight: 800;
         font-size: 2rem;
-        margin-top: 1rem;
     }
 }
-
 
 /* Screen Sizes 700px and up */
 @media(min-width: 700px) {
@@ -256,34 +197,8 @@ footer h3 {
         padding: 1rem 3rem;
         font-size: 1.2rem;
     }
-    #landing {
-        display: flex;
-        flex-direction: column; /* Aligner les éléments verticalement */
-        justify-content: center; /* Centrer verticalement */
-        align-items: center; /* Centrer horizontalement   
-       */
-        text-align: center; /* Centrer le texte */
-        height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
-      }
-        
+
     #landing-text img {
         width: 15vw;
-       /*  margin-bottom: 1rem; */
     }
-
 }
-
-/* Screen Sizes 300px and up */
-/* @media(max-height: 300px) {
-
-
-    #landing-text {
-      /*   height: 100vh; 
-        background: url(../img/logo.png); 
-        background-position: top;
-        background-position-y: 1rem;
-        background-size: 12rem;
-        background-repeat: no-repeat;
-        padding-top: 0;
-    }
-} */
