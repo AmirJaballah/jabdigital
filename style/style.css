@@ -34,6 +34,16 @@ main {
     -30px 0px 40px rgba(0, 0, 0, 0.1);
 }
 
+#landing-text-inner {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments verticalement */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement   
+   */
+    text-align: center; /* Centrer le texte */
+    height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
+  }
+
 #landing {
     background: #fff;
 }
@@ -192,6 +202,16 @@ footer h3 {
         height: 100%;
     }
 
+    #landing {
+        display: flex;
+        flex-direction: column; /* Aligner les éléments verticalement */
+        justify-content: center; /* Centrer verticalement */
+        align-items: center; /* Centrer horizontalement   
+       */
+        text-align: center; /* Centrer le texte */
+        height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
+      }
+
     #landing-text {
         display: flex;
         flex: 0 1 40vw;
@@ -236,6 +256,15 @@ footer h3 {
         padding: 1rem 3rem;
         font-size: 1.2rem;
     }
+    #landing {
+        display: flex;
+        flex-direction: column; /* Aligner les éléments verticalement */
+        justify-content: center; /* Centrer verticalement */
+        align-items: center; /* Centrer horizontalement   
+       */
+        text-align: center; /* Centrer le texte */
+        height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur */
+      }
         
     #landing-text img {
         width: 15vw;
